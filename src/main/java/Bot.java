@@ -1,6 +1,6 @@
 public class Bot {
 
-  private String name;
+  private String fullName;
   private String address;
   private int age;
 
@@ -8,17 +8,17 @@ public class Bot {
   }
 
   public Bot(String gender, String name, String address, int age) {
-    this.name = name;
+    this.fullName = name;
     this.address = address;
     this.age = age;
   }
 
   public String getName() {
-    return name;
+    return fullName;
   }
 
   public void setName(String name) {
-    this.name = name;
+    this.fullName = name;
   }
 
   public String getAddress() {
